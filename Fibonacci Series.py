@@ -10,9 +10,9 @@ if terms <= 0:
 elif terms == 1:
     print ("Fibonacci series : {}".format(n1))
 else:
-    print("Fibonacci sereies : ")
+    print("Fibonacci series : ")
     while a < terms:
-        print(n1)
+        print(n1, end=" ")
         nth = n1 + n2
         n1 = n2
         n2 = nth
