@@ -1,0 +1,22 @@
+#Deleting different dictionary elements
+
+dict = {
+"Name" : "Raju",
+"Age" : 27,
+"Hobby" : "Basketball",
+"Qualification" : "CA"
+}
+
+dict.pop("Age")
+print (dict)
+
+#Accessing tuple items
+
+tuple = ("grapes", "mango", "raddish", "carrot")
+print (tuple[1])
+print (tuple[-2])
+
+#Assigning values to the lists
+
+list = ["grapes", "mango", "raddish", "carrot"]
+print (list)
